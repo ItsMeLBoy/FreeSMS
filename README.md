@@ -1,6 +1,6 @@
 # FreeSMS
-> Nothing special:/
-> Random number
+> Nothing special:/ <br>
+> Random number <br>
 > Just for +62 people!1! (maybe)
 
 # Original website

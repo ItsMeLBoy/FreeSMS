@@ -18,10 +18,10 @@ do
     command -v $i >/dev/null 2>&1 || {
         echo -e >&2 "${yellow}$i ${white}: belum terinstall - tools akan menginstallnya"
         #mencoba untuk menginstall
-        sudo apt-get install $i -y
+        apt-get install $i -y
         echo -e "${yellow}okeh semua sudah terinstall, tunggu sebentar tools akan berjalan secara otomatis\n${white}-Zan"
+	sleep 2
         clear
-        sleep 1
     }
 done
 
